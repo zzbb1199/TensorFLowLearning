@@ -1,3 +1,6 @@
+"""
+tensorflow 初步学习，tensorflow的基础：1. 计算图，2.张量。3.Session
+"""
 import tensorflow as tf
 
 a = tf.constant([1.0, 2], name="a")
