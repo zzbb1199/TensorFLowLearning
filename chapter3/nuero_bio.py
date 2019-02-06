@@ -23,17 +23,19 @@ y_ = tf.placeholder(tf.float32, shape=(None, 1), name="y-input")
 a = tf.matmul(x, w1)
 y = tf.matmul(a, w2)
 
-cross_entropy = -tf.reduce_mean(
-    y_ * tf.log(tf.clip_by_value(y, 1e-10, 1.0))
-)
+# 定义损失函数---这里使用交叉熵
+# cross_entropy = -tf.reduce_mean(
+#     y_ * tf.log(tf.clip_by_value(y, 1e-10, 1.0))
+# )
+cross_entropy = tf.nn.softmax_cross_entropy_with_logits(labels=y,logits=y_)
 learning_rate = 0.001
 train_step = tf.train.AdamOptimizer(learning_rate).minimize(cross_entropy)
 
-# 随机
+# 定义训练样本
+# 这里使用随机数代替
 rdm = RandomState(1)
 dataset_size = 128
 X = rdm.rand(dataset_size, 2)
-
 # 定义规则给出样本的标签.在这里所有的x1+x2 < 1 被认为是正样本(合格样本),否则为负样本
 Y = [[int(x1 + x2 < 1)] for (x1, x2) in X]
 
