@@ -28,6 +28,7 @@ Y = [[x1 + x2 + rdm.rand() / 10.0 - 0.05] for (x1, x2) in X]
 loss_more = 1
 loss_less = 10
 loss = tf.reduce_mean(tf.square(y-y_label))
+
 # 定义指数衰减学习因子
 global_step = tf.Variable(0)
 learning_rate = tf.train.exponential_decay(0.03,global_step,
