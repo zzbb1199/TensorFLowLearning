@@ -37,7 +37,6 @@ def eval(mnist):
     sess = tf.Session()
     # 开始验证
     while True:
-
         # 读取最新训练好的模型
         ckpt = tf.train.get_checkpoint_state(
             mnist_train.SAVE_PATH
