@@ -4,12 +4,11 @@ import LeNet5_infernece
 import os
 import numpy as np
 
-
 BATCH_SIZE = 100
 LEARNING_RATE_BASE = 0.01
 LEARNING_RATE_DECAY = 0.99
 REGULARIZATION_RATE = 0.0001
-TRAINING_STEPS = 6000
+TRAINING_STEPS = 30000
 MOVING_AVERAGE_DECAY = 0.99
 
 
@@ -43,6 +42,20 @@ def train(mnist):
     with tf.control_dependencies([train_step, variables_averages_op]):
         train_op = tf.no_op(name='train')
 
+    # ===================数据验证=========================
+    # 定义预测精度
+    correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1))
+    accuracy = tf.reduce_mean(tf.cast(correct_prediction, dtype=tf.float32))
+    validation_xs = mnist.validation.images
+    reshaped_validation_xs = np.reshape(validation_xs,
+                                        [validation_xs.shape[0],
+                                         LeNet5_infernece.IMAGE_SIZE,
+                                         LeNet5_infernece.IMAGE_SIZE, LeNet5_infernece.NUM_CHANNELS])
+    validation_ys = mnist.validation.labels
+    validation_data = {x: reshaped_validation_xs[0:BATCH_SIZE, :, :, :],
+                       y_: validation_ys[0:BATCH_SIZE, :]}
+    # ===================结束验证定义===validation_data=========================
+
     # 初始化TensorFlow持久化类。
     saver = tf.train.Saver()
     with tf.Session() as sess:
@@ -58,11 +71,16 @@ def train(mnist):
             _, loss_value, step = sess.run([train_op, loss, global_step], feed_dict={x: reshaped_xs, y_: ys})
 
             if i % 1000 == 0:
-                print("After %d training step(s), loss on training batch is %g." % (step, loss_value))
+                print("After %d training step(s),"
+                      " loss on training batch is %g."
+                      " the accuracy is %g" % (step, loss_value,
+                                               sess.run(accuracy, feed_dict=validation_data)))
+
 
 def main(argv=None):
     mnist = input_data.read_data_sets("../MNIST_data", one_hot=True)
     train(mnist)
+
 
 if __name__ == '__main__':
     main()
