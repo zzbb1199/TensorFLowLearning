@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc52bd09-7220-4f71-bdb6-dcaedb7ce61d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/google_tensorflow_practise/chapter9/mnist_inference.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/google_tensorflow_practise/chapter9/mnist_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/google_tensorflow_practise/chapter9/tensorboard_monitor_metrics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras_learning/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras_learning/autoencoder/cnn_autoencoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras_learning/autoencoder/cnn_autoencoder_denoise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras_learning/autoencoder/deep_autoencoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras_learning/autoencoder/simple_autoencoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras_learning/function_api/fc_network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras_learning/normal_autoencoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras_learning/sequential/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras_learning/sequential/cnn_mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras_learning/sequential/conv_filter_visualize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras_learning/sequential/first_keras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras_learning/sequential/mlp_classify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras_learning/sequential/mlp_mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/linear_regress.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google_tensorflow_practise/chapter5/best-practice/mnist_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/google_tensorflow_practise/chapter5/best-practice/mnist_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/google_tensorflow_practise/chapter7/ImageProcess/图像操作API.md" beforeDir="false" afterPath="$PROJECT_DIR$/google_tensorflow_practise/chapter7/ImageProcess/图像操作API.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wumofan_tensorflow_learning/二次函数的模拟.py" beforeDir="false" afterPath="$PROJECT_DIR$/wumofan_tensorflow_learning/二次函数的模拟.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,40 +62,44 @@
     <session id="288213680">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="12" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="13" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="3" />
           <entry key="md" value="1" />
-          <entry key="py" value="73" />
+          <entry key="png" value="1" />
+          <entry key="py" value="117" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="3" />
+          <entry key="Image" value="4" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="73" />
+          <entry key="Python" value="117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="1094" />
           <entry key="md" value="30" />
-          <entry key="py" value="26703" />
+          <entry key="py" value="39683" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="30" />
-          <entry key="Python" value="27797" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="40777" />
         </counts>
       </usages-collector>
     </session>
@@ -93,41 +107,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter9/mnist_train.py">
+        <entry file="file://$PROJECT_DIR$/keras_learning/function_api/fc_network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+            <state relative-caret-position="330">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
-                <element signature="e#43#66#0" expanded="true" />
+                <element signature="e#30#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras_learning/autoencoder/simple_autoencoder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="41" selection-start-line="41" selection-end-line="50" selection-end-column="21" />
+              <folding>
+                <element signature="e#15#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras_learning/autoencoder/deep_autoencoder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-550">
+              <caret line="11" selection-start-line="11" selection-end-line="24" selection-end-column="19" />
+              <folding>
+                <element signature="e#37#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras_learning/autoencoder/cnn_autoencoder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="79" column="49" lean-forward="true" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
+              <folding>
+                <element signature="e#15#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter9/tensorboard_monitor_metrics.py">
+        <entry file="file://$PROJECT_DIR$/keras_learning/autoencoder/cnn_autoencoder_denoise.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2090">
-              <caret line="95" column="7" selection-start-line="95" selection-start-column="7" selection-end-line="96" selection-end-column="46" />
+            <state relative-caret-position="-493">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
-                <element signature="e#32#55#0" expanded="true" />
-                <marker date="1551513209127" expanded="true" signature="252:257" ph="..." />
-                <marker date="1551513209127" expanded="true" signature="1853:3827" ph="..." />
+                <element signature="e#19#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter5/best-practice/mnist_inference.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter5/best-practice/mnist_train.py">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/matplotlib/pyplot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1694">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="88">
+              <caret line="3034" column="4" selection-start-line="3034" selection-start-column="4" selection-end-line="3034" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -144,6 +187,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>train_ground_truth</find>
+      <find>padding</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,6 +229,20 @@
         <option value="$PROJECT_DIR$/google_tensorflow_practise/chapter5/best-practice/mnist_train.py" />
         <option value="$PROJECT_DIR$/google_tensorflow_practise/chapter9/mnist_train.py" />
         <option value="$PROJECT_DIR$/google_tensorflow_practise/chapter9/tensorboard_monitor_metrics.py" />
+        <option value="$PROJECT_DIR$/wumofan_tensorflow_learning/二次函数的模拟.py" />
+        <option value="$PROJECT_DIR$/test/linear_regress.py" />
+        <option value="$PROJECT_DIR$/keras_learning/first_keras.py" />
+        <option value="$PROJECT_DIR$/keras_learning/mlp_classify.py" />
+        <option value="$PROJECT_DIR$/keras_learning/mlp_mnist.py" />
+        <option value="$PROJECT_DIR$/keras_learning/cnn_mnist.py" />
+        <option value="$PROJECT_DIR$/keras_learning/conv_filter_visualize.py" />
+        <option value="$PROJECT_DIR$/keras_learning/normal_autoencoder.py" />
+        <option value="$PROJECT_DIR$/keras_learning/function_api.py" />
+        <option value="$PROJECT_DIR$/keras_learning/function_api/fc_network.py" />
+        <option value="$PROJECT_DIR$/keras_learning/autoencoder/deep_autoencoder.py" />
+        <option value="$PROJECT_DIR$/keras_learning/autoencoder/simple_autoencoder.py" />
+        <option value="$PROJECT_DIR$/keras_learning/autoencoder/cnn_autoencoder.py" />
+        <option value="$PROJECT_DIR$/keras_learning/autoencoder/cnn_autoencoder_denoise.py" />
       </list>
     </option>
   </component>
@@ -194,6 +252,23 @@
     <option name="width" value="1279" />
     <option name="height" value="701" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -202,7 +277,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,51 +287,36 @@
             <path>
               <item name="TensorFlowLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="TensorFlowLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="google_tensorflow_practise" type="462c0819:PsiDirectoryNode" />
+              <item name="keras_learning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TensorFlowLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="TensorFlowLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="google_tensorflow_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TensorFlowLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TensorFlowLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="google_tensorflow_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="datas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TensorFlowLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TensorFlowLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="google_tensorflow_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="datas" type="462c0819:PsiDirectoryNode" />
-              <item name="MNIST_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TensorFlowLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TensorFlowLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="keras_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="autoencoder" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Projects/PythonProjects/TensorFlowLearning/keras_learning/mlp_classify.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\PythonProjects\TensorFlowLearning\keras_learning\sequential" />
+      <recent name="D:\Projects\PythonProjects\TensorFlowLearning\google_tensorflow_practise\chapter7\TFRecord" />
+      <recent name="D:\Projects\PythonProjects\TensorFlowLearning\google_tensorflow_practise\datas" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\PythonProjects\TensorFlowLearning\google_tensorflow_practise\chapter9" />
       <recent name="D:\Projects\PythonProjects\TensorFlowLearning" />
       <recent name="D:\Projects\PythonProjects\TensorFlowLearning\google_tensorflow_practise\chapter7\MultiThreadProcess" />
       <recent name="D:\Projects\PythonProjects\TensorFlowLearning\google_tensorflow_practise\chapter6\migrate_learning\flower_photos" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\PythonProjects\TensorFlowLearning\google_tensorflow_practise\chapter7\TFRecord" />
-      <recent name="D:\Projects\PythonProjects\TensorFlowLearning\google_tensorflow_practise\datas" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,8 +331,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tensorboard_monitor_metrics">
-    <configuration name="mnist_train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.cnn_autoencoder_denoise">
+    <configuration name="cnn_autoencoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,11 +340,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/google_tensorflow_practise/chapter5/best-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras_learning/autoencoder" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/google_tensorflow_practise/chapter5/best-practice/mnist_train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_learning/autoencoder/cnn_autoencoder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,7 +353,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mnist_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cnn_autoencoder_denoise" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,11 +361,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/google_tensorflow_practise/chapter9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras_learning/autoencoder" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/google_tensorflow_practise/chapter9/mnist_train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_learning/autoencoder/cnn_autoencoder_denoise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,7 +374,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tensorboard_monitor_metrics" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="deep_autoencoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,11 +382,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/google_tensorflow_practise/chapter9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras_learning/autoencoder" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/google_tensorflow_practise/chapter9/tensorboard_monitor_metrics.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_learning/autoencoder/deep_autoencoder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,7 +395,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tensorboard_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fc_network" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,11 +403,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/google_tensorflow_practise/chapter9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras_learning/function_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/google_tensorflow_practise/chapter9/tensorboard_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_learning/function_api/fc_network.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -357,7 +416,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tensorboard_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="simple_autoencoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -365,11 +424,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/google_tensorflow_practise/chapter8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras_learning/autoencoder" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/google_tensorflow_practise/chapter8/tensorboard_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_learning/autoencoder/simple_autoencoder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -379,19 +438,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.tensorboard_test" />
-      <item itemvalue="Python.tensorboard_test (1)" />
-      <item itemvalue="Python.mnist_train" />
-      <item itemvalue="Python.mnist_train (1)" />
-      <item itemvalue="Python.tensorboard_monitor_metrics" />
+      <item itemvalue="Python.fc_network" />
+      <item itemvalue="Python.simple_autoencoder" />
+      <item itemvalue="Python.deep_autoencoder" />
+      <item itemvalue="Python.cnn_autoencoder" />
+      <item itemvalue="Python.cnn_autoencoder_denoise" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tensorboard_monitor_metrics" />
-        <item itemvalue="Python.mnist_train" />
-        <item itemvalue="Python.mnist_train (1)" />
-        <item itemvalue="Python.tensorboard_test (1)" />
-        <item itemvalue="Python.tensorboard_test" />
+        <item itemvalue="Python.cnn_autoencoder_denoise" />
+        <item itemvalue="Python.cnn_autoencoder" />
+        <item itemvalue="Python.simple_autoencoder" />
+        <item itemvalue="Python.deep_autoencoder" />
+        <item itemvalue="Python.fc_network" />
       </list>
     </recent_temporary>
   </component>
@@ -406,6 +465,14 @@
       <option name="presentableId" value="Default" />
       <updated>1546483307012</updated>
     </task>
+    <task id="LOCAL-00001" summary="tensorboard使用学习">
+      <created>1551514170420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551514170420</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -425,12 +492,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3854506" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3767644" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47557002" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43322477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.29641694" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.60369164" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.6030369" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.6688382" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.4408252" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.29641694" />
@@ -439,26 +506,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3854506" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3767644" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.29641694" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.60369164" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.41150922" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.4408252" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.29641694" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -488,6 +535,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tensorboard使用学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="tensorboard使用学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -531,6 +582,16 @@
           <url>file://$PROJECT_DIR$/google_tensorflow_practise/chapter7/ImageProcess/bounding_box.py</url>
           <line>12</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/linear_regress.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/linear_regress.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -588,205 +649,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/tensorflow/python/lib/io/file_io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/tensorflow/python/platform/gfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/tensorflow/python/ops/math_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="617" column="25" selection-start-line="617" selection-start-column="25" selection-end-line="617" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter6/migrate_learning/migrate_learning.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="299" column="99" selection-start-line="299" selection-start-column="99" selection-end-line="299" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tensorflow_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tf_argmax_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/tensorflow/core/example/example_pb2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/tensorflow/core/example/feature_pb2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="383" column="59" selection-start-line="383" selection-start-column="52" selection-end-line="383" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/google/protobuf/internal/python_message.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10098">
-          <caret line="478" selection-start-line="478" selection-end-line="478" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/tensorflow/python/framework/errors_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="523" selection-start-line="523" selection-end-line="523" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter7/ImageProcess/picture/pic.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter7/ImageProcess/picture/pic_bak.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/tensorflow/gfile/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/matplotlib/axes/_subplots.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter7/ImageProcess/图像操作API.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="44">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter7/ImageProcess/image_encode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter7/ImageProcess/image_size_adjust.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/tensorflow/python/framework/ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33726">
-          <caret line="1578" selection-start-line="1578" selection-end-line="1578" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter7/ImageProcess/bounding_box.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding>
-            <marker date="1551254477741" expanded="true" signature="167:168" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/tensorflow/python/ops/image_ops_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="2001" column="37" lean-forward="true" selection-start-line="2001" selection-start-column="37" selection-end-line="2002" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/tensorflow/python/ops/gen_image_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="1117" column="4" selection-start-line="1117" selection-start-column="4" selection-end-line="1117" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/tensorflow/python/framework/op_def_library.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter7/TFRecord/test.py" />
-    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter7/TFRecord/mnist_data2tf_record.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/tensorflow/python/training/input.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="201" column="45" lean-forward="true" selection-start-line="201" selection-start-column="45" selection-end-line="201" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter7/MultiThreadProcess/tf_queue_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter7/MultiThreadProcess/tf_coordinator_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter7/MultiThreadProcess/quque_runner_coordinator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter7/TFRecord/tfrecord_write.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/tensorflow/python/framework/tensor_shape.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16632">
-          <caret line="763" selection-start-line="763" selection-end-line="763" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/tensorflow/python/ops/data_flow_ops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7546">
@@ -889,16 +751,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter9/mnist_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="1232">
           <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-          <folding>
-            <element signature="e#43#66#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter5/best-practice/mnist_inference.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter5/best-practice/mnist_train.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -907,14 +763,255 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/numpy/core/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter3/forward_neruo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter3/nuero_bio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter4/goods_profit_prediction.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter5/best-practice/mnist_inference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/google_tensorflow_practise/chapter9/tensorboard_monitor_metrics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="95" column="7" selection-start-line="95" selection-start-column="7" selection-end-line="96" selection-end-column="46" />
+        <state relative-caret-position="22">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/linear_regress.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
-            <element signature="e#32#55#0" expanded="true" />
-            <marker date="1551513209127" expanded="true" signature="252:257" ph="..." />
-            <marker date="1551513209127" expanded="true" signature="1853:3827" ph="..." />
+            <element signature="e#35#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/tensorflow/python/ops/math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48532">
+          <caret line="2235" column="52" selection-start-line="2235" selection-start-column="52" selection-end-line="2235" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wumofan_tensorflow_learning/二次函数的模拟.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/numpy/random/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="101" column="13" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/keras/utils/np_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/keras/layers/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="825" column="8" selection-start-line="825" selection-start-column="8" selection-end-line="825" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_learning/sequential/first_keras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding>
+            <element signature="e#30#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_learning/sequential/mlp_classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#35#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/keras/engine/network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="1228" column="8" selection-start-line="1228" selection-start-column="8" selection-end-line="1228" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/keras/datasets/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/keras/optimizers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="239" column="8" selection-start-line="239" selection-start-column="8" selection-end-line="239" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_learning/sequential/mlp_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#30#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="822" column="8" selection-start-line="822" selection-start-column="8" selection-end-line="822" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_learning/sequential/cnn_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+          <folding>
+            <element signature="e#30#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_learning/sequential/vgg_block5_conv1_17x17.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_learning/function_api.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_learning/normal_autoencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="12" selection-start-line="16" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_learning/sequential/conv_filter_visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="228" selection-start-line="228" selection-end-line="228" />
+          <folding>
+            <element signature="e#195#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_learning/function_api/fc_network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#30#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="3034" column="4" selection-start-line="3034" selection-start-column="4" selection-end-line="3034" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/keras/layers/convolutional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="388" column="72" selection-start-line="388" selection-start-column="71" selection-end-line="388" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_learning/autoencoder/simple_autoencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="41" selection-start-line="41" selection-end-line="50" selection-end-column="21" />
+          <folding>
+            <element signature="e#15#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_learning/autoencoder/deep_autoencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-550">
+          <caret line="11" selection-start-line="11" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#37#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/161233852/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="5807" column="4" selection-start-line="5807" selection-start-column="4" selection-end-line="5807" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_learning/autoencoder/cnn_autoencoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="79" column="49" lean-forward="true" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
+          <folding>
+            <element signature="e#15#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/161233852/numpy/random/mtrand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="1594" column="4" selection-start-line="1594" selection-start-column="4" selection-end-line="1594" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras_learning/autoencoder/cnn_autoencoder_denoise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#19#51#0" expanded="true" />
           </folding>
         </state>
       </provider>

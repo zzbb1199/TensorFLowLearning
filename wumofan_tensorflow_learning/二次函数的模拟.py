@@ -8,12 +8,12 @@ import matplotlib.pyplot as plt
 # 产生模拟数据
 x_data = np.linspace(-1, 1, 300)[:,np.newaxis]
 noise = np.random.normal(0, 0.05, x_data.shape)
-y_data = x_data ** 10 + 0.2 + noise
+y_data = x_data ** 2 + 0.2*x_data + noise
 
 # 绘制原始数据的散点图
 fig = plt.figure(1)
 
-ax = fig.add_subplot(2,1,1)
+ax = fig.add_subplot(1,1,1)
 ax.scatter(x_data, y_data)
 plt.xlabel('x')
 plt.ylabel('y')
@@ -55,7 +55,7 @@ with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
     writer = tf.summary.FileWriter("./logs/",sess.graph)
 
-    STEPS = 300
+    STEPS = 3000
     for i in range(STEPS):
         sess.run(train_step, feed_dict={x: x_data,
                                         y_label: y_data})
